@@ -3,6 +3,16 @@
 
 ## Timeslicing 
 
+### Seasons
+The model is broken into four seasons, as summarized below. Each season starts/ends on the firs/last day of the month (ie. They do not start/end mid-month like in reality) 
+
+| Season | Abbreviation | Months Included | 
+|--------|--------------|--------------------|
+| Winter | W            | January, February, March |
+| Spring | SP           | April, May, June |
+| Summer | S            | July, August, September |
+| Fall   | F            | October, November, December |
+
 ## Regions 
 The model currently includes the 10 Canadian provinces, with plans to add in the mainland United States in the future. The table below summarizes how the provinces were separated into modeled regions. 
 
@@ -11,7 +21,7 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | West         | W            | BC, Alberta |
 | Mid-West     | MW           | Saskatchewan, Manitoba |
 | Mid-East     | ME           | Ontario, New Brunswick |
-|  East        | E            | Quebec, Nova Scotia, PEI, Newfoundland Labrador |
+| East         | E            | Quebec, Nova Scotia, PEI, Newfoundland Labrador |
 
 ## Technologies
 ### Power Generators
