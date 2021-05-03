@@ -1,5 +1,6 @@
 # Model Overview
 ## Purpose
+The Role of U.S.-Canada Electricity Trade in North American Decarbonization Pathways
 
 ## Timeslicing 
 
@@ -12,6 +13,19 @@ The model is broken into four seasons, as summarized below. Each season starts/e
 | Spring | SP           | April, May, June |
 | Summer | S            | July, August, September |
 | Fall   | F            | October, November, December |
+
+### Time Zones
+A "Model Time" is implemented to account for time zone differences. British Columbia is referenced as "Time Zero" and data is shifted for each time zone accordingly. This allows time zone differences to be included in how the model uses transmission. The table below summarizes the time shifts per province. An example on how to read this table is, the input demand at 2pm Local BC time is matched up with the input demand at 3pm Local Alberta Time. 
+
+| Time Zone | Time Shift | Provinces Included | 
+|-----------|------------|--------------------|
+| PDT       | 0          | British Columbia |
+| MDT       | +1         | Alberta |
+| CDT       | +2         | Saskatchewan, Manitoba |
+| EDT       | +3         | Ontario, Quebec |
+| ADT       | +4         | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
+
+Our model represents Canada using 5 time zones. In reality, there are 6 time zones. Newfoundland operates on a time zone 30min ahead of the Atlantic time zone. Since our timeslicing is done on an hourly basis, it does not lend itself well to accommodate this. Therefore, we group all Newfoundland and Labrador data into the Atlantic time zone. 
 
 ## Regions 
 The model currently includes the 10 Canadian provinces, with plans to add in the mainland United States in the future. The table below summarizes how the provinces were separated into modeled regions. 
