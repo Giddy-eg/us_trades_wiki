@@ -1,7 +1,6 @@
 # Scripts and Data Files Referenced
 * `CapacityFactor.py`
 * dataSources/CapacityFactor
-* dataSources/ResidualCapacity.csv
 
 # Sources and Assumptions 
 ## Wind and Solar
@@ -32,4 +31,13 @@
 * Turbine Model - Vestas V90 2000
 
 ## Hydro 
-[Government of Canda](https://www.nrcan.gc.ca/science-data/data-analysis/energy-data-analysis/energy-facts/electricity-facts/20068#L1)
+Had difficulty finding straight hydro capacity factor values for any province in Canada. Instead, we utilized our hydro residual capacity values and found provincial hydro generation numbers. The capacity factor was then calculated using the following formula: 
+
+Capacity Factor = (Generation [GWh] * (1 year / 8760 hrs)) / Capacity [GW]
+
+### Sources 
+* [Residual Capacity Source](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101)
+* [Generation Source](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510001501&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2017&cubeTimeFrame.endMonth=12&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20171201)
+
+### Assumptions
+* The capacity factors in 2019 are the same for all model years (2019-2050) and model timesteps 
