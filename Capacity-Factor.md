@@ -33,7 +33,7 @@
 ## Hydro 
 Had difficulty finding straight hydro capacity factor values for any province in Canada. Instead, we utilized our hydro residual capacity values and found provincial hydro generation numbers. The capacity factor was then calculated using the following formula: 
 
-Capacity Factor = (Generation [GWh] * (1 year / 8760 hrs)) / Capacity [GW]
+Capacity Factor = (Generation [Wh] * (1 year / 8760 hrs)) / Capacity [W]
 
 ### Sources 
 * [Residual Capacity Source](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101)
