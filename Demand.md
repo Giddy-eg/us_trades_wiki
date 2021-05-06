@@ -1,5 +1,5 @@
 # Total Annual Demand
-Canadian Provincial Energy Demands for 2005 to 2050 are documented by the [Canadian Energy Regulator](https://apps.cer-rec.gc.ca/ftrppndc/dflt.aspx?GoCTemplateCulture=en-CA) in their "Canada's Energy Future 2020: Energy Supply and Demand Projections to 2050" Report. 
+Canadian Provincial Energy Demands for 2005 to 2050 are documented by the [Canadian Energy Regulator](https://apps.cer-rec.gc.ca/ftrppndc/dflt.aspx?GoCTemplateCulture=en-CA) in their "Canada's Energy Future 2020: Energy Supply and Demand Projections to 2050" Report. We retrieve data from the "End Use Demand" Appendix.
 
 # Demand Profile 
 The yearly demand profile for each province is calculated by looking at hourly loads provided by the following sources. 
