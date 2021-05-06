@@ -31,3 +31,4 @@ To calculate the hourly load value (in Watts) for the missing provinces...
 Daylight saving is dealt with in the following manor: 
 * If an hour is removed, the line item from the source is either omitted or reported as zero (ie. 3am has a load of 0). In this case we take the demand from the previous hour and map it to the missing hour. 
 * If an hour is added, the line item in the source is doubled up (ie. two 3am load values). In this case we take the average between these values. 
+* See note on Saskatchewan daylight savings time [here](https://github.com/DeltaE/Canada-U.S.-ElecTrade/wiki#time-zones)
