@@ -27,7 +27,7 @@ A "Model Time" is implemented to account for time zone differences. British Colu
 
 Our model represents Canada using 5 time zones. In reality, there are 6 time zones. Newfoundland operates on a time zone 30min ahead of the Atlantic time zone. Since our timeslicing is done on an hourly basis, it does not lend itself well to accommodate this. Therefore, we group all Newfoundland and Labrador data into the Atlantic time zone. 
 
-Saskatchewan does not observe daylight savings time. Therefore, during the summer its time matches Alberta, and during the winter its time matches Manitoba. TO simplify data processing, we have grouped Saskatchewan into the Central Time Zone with Manitoba. More information about Canadian time zones and daylight savings can be found [here](https://en.wikipedia.org/wiki/Daylight_saving_time_in_Canada)
+Saskatchewan does not observe daylight savings time. Therefore, during the summer its time matches Alberta, and during the winter its time matches Manitoba. To simplify data processing, we have grouped Saskatchewan into the Central Time Zone with Manitoba. More information about Canadian time zones and daylight savings can be found [here](https://en.wikipedia.org/wiki/Daylight_saving_time_in_Canada)
 
 ## Regions 
 The model currently includes the 10 Canadian provinces, with plans to add in the mainland United States in the future. The table below summarizes how the provinces were separated into modeled regions. 
