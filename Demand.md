@@ -11,11 +11,11 @@ The yearly demand profile for each province is calculated by looking at hourly l
 | Saskatchewan          | Used Alberta Load Profile |
 | Manitoba              | Used Alberta Load Profile |
 | Ontario               | [IESO](http://reports.ieso.ca/public/Demand/) |
-| Quebec                | Used Ontario Load Profile |
+| Quebec                | Used British Columbia Load Profile |
 | New Brunswick         | [NB Power](http://tso.nbpower.com/Public/en/system_information_archive.aspx) |
 | Nova Scotia           | [NS Power](https://www.nspower.ca/oasis/monthly-reports/hourly-total-net-nova-scotia-load) |
 | PEI                   | Used Nova Scotia Load Profile |
-| Newfoundland Labrador | Used New Brunswick Load Profile |
+| Newfoundland Labrador | Used Nova Scotia Load Profile |
 
 ## Missing Hourly Provincial Loads
 Retrieving hourly load data for an entire year has not been done for Saskatchewan, Manitoba, Quebec, PEI and Newfoundland. This is due to the data not being easily accessible. To account for this, we have mapped the load profiles from similar provinces as described in the above table. 
