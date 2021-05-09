@@ -1,8 +1,3 @@
-# Scripts and Data Files Referenced
-* `CapacityFactor.py`
-* dataSources/CapacityFactor
-
-# Sources and Assumptions 
 ## Wind and Solar
 ### Source
 [Renewables Ninja](https://www.renewables.ninja/)
