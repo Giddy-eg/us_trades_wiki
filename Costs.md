@@ -4,7 +4,7 @@ In numerous situations, the capital costs, fixed costs and variable costs were t
 
 Using the NREL data source provides us with reliable cost figures in one place. Although they are not Canada specific, thus introducing error, it saves significant data collection time and allows us to move forward with other modelling aspects. Once the model is in a more complete form, this data set can be updated to reflect Canadian Numbers. 
 
-The following global parameters were applied to the NREL database. Notes on the `core_metric_parameter` column can be found in each cost section (Capital, Fixed, Variable) below. Under the table are notes on the filtering method used for each technology
+The following global parameters were applied to the NREL database. Notes on the `core_metric_parameter` column can be found in each cost section (Capital, Fixed, Variable) below. 
 
 | Model Technology    | atbyear | core_metric_parameter | core_metric_case | crpyears | technology    | techdetail | scenario |
 |---------------------|---------|-----------------------|------------------|----------|---------------|------------|----------|
