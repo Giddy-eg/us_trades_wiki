@@ -80,3 +80,47 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 |--------------|--------------|
 | Electricity  | ELC | 
 | Hydrogen     | H2 |
+
+# Canada-U.S.Data
+Below is a table hihglighting the data sources for each parameter. The raw excel files are included in this folder where applicable. 
+
+
+| Parameter                                    | Units in Model    | 
+| -------------------------------------------  |:-----------------:|
+| AccumulatedAnnualDemand 					   |      			   |      			 
+| AnnualEmissionLimit      					   |            	   |            	 
+| AnnualExogenousEmission 					   |            	   |            	 
+| AvailabilityFactor      					   |      			   |      			
+| CapacityFactor      						   | na                | 
+| CapacityOfOneTechnologyUnit     			   |      			   |      			
+| CapitalCost      							   | $/GW              |
+| CapitalCostStorage 						   | Update            | 
+| DiscountRate      						   |      			   |      			
+| DiscountRateStorage      					   |           		   |          
+| EmissionActivityRatio 					   | Tonne CO2 / PJ    | 
+| EmissionPenalty      						   | $/Tonne CO2       | 
+| FixedCost     							   | $/GW              | 
+| InputActivityRatio 						   | na                | 
+| MinStorageCharge      					   |      			   |      			 
+| ModelPeriodEmissionLimit    				   |           		   |           		  
+| ModelPeriodExogenousEmission				   |           		   |           		  
+| OperationalLife    						   | Years             | 
+| OperationalLifeStorage    				   | Years             |
+| OutputActivityRatio 						   | na                |
+| Reserve Margin      						   | update            | 
+| ResidualCapacity     						   | GW                | 
+| ResidualStorageCapacity 					   |                   |                
+| SpecifiedAnnualDemand      				   | PJ                | 
+| SpecifiedDemandProfile 					   | na                | 
+| StorageLevelStart    						   |      			   |      
+| StorageMaxChargeRate     					   |           		   |           		
+| StorageMaxDischargeRate 					   |           		   |           	
+| TotalAnnualMaxCapacity      				   |      			   |      		
+| TotalAnnualMaxCapacityInvestment      	   |           		   |           	
+| TotalAnnualMinCapacity 					   | 	       		   | 
+| TotalAnnualMinCapacityInvestment      	   |      	   		   |
+| TotalTechnologyAnnualActivityLowerLimit      |           		   |           		  
+| TotalTechnologyAnnualActivityUpperLimit 	   |           		   |           		  
+| TotalTechnologyModelPeriodActivityLowerLimit |           		   |           		  
+| TotalTechnologyModelPeriodActivityUpperLimit |           		   |           		  
+| Variable Cost      						   | $/PJ              |
