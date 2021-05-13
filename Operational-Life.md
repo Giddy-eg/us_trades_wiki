@@ -4,3 +4,6 @@ Researching the operational life of various technologies proved to be difficult 
 We have currently implemented the [2017 EIA Annual Energy Outlook Report](https://www.eia.gov/outlooks/aeo/assumptions/pdf/0554(2017).pdf) operations life values, which are listed as Service Life. Other references collected for this model provided numbers that more closely aligned with the EIA values rather then the NREL values. **ADD EXTRA SOURCES HERE**
 
 Due to the variability in operational life values from reputable sources, it will be good to perform a sensitivity analysis to further understand how the operational life effects renewable investment, emissions, and system cost. 
+
+## Assumptions 
+* The operational life for all technologies is the same for all regions
