@@ -9,16 +9,20 @@ Due to the variability in operational life values from reputable sources, it wil
 The following table shows the operational life values used 
 | Technology          | Operational Life (Years) | Source |
 |---------------------|--------------------------|--------|
-| Coal                | 45 			 |  |
-| Coal Carbon Capture | 45 			 |  |
+| Coal                | 40 			 |  |
+| Coal Carbon Capture | 40 			 |  |
 | Natural Gas         | 35 			 |  |
 | Nuclear      	      | 60 			 |  |
 | Wind         	      | 30 			 |  |             
 | Solar        	      | 30 			 |  |
+| Hydro        	      | 100 			 | [NREL 2020 Annual Technology Baseline](https://atb.nrel.gov/electricity/2020/definitions.php) |
 | Biomass     	      | 45 			 |  |
 | Oil          	      | 10   			 |  |
 | Power to Gas        | 10 			 |  |
 | Hydrogen Fuel Cell  | 10			 | [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) |
+
+### Hydro
+We opted to use the operational life from the NREL because it estimated it to be 100 years. We want to impose the assumption that Hydro plants will not be shut down in the model, and instead maintained indefinitely. We set this assumption because Canada is very reliant on Hydro, and it is a renewable source. 
 
 ### Fuel Cells
 The [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) released a report for [Technical Targets for Fuel Cell Systems for Stationary Applications](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power). In this report, the projected 2020 lifetime for a **stationary** fuel cell is 80,000hrs. We estimate this to be 10years. This lifetime is **not** representative of fuel cells used in the transportation industry
@@ -28,3 +32,4 @@ The [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/ee
 
 ## Assumptions 
 * The operational life for all technologies is the same for all regions
+* Hydro stations will **not** be shut down throughout the model run 
