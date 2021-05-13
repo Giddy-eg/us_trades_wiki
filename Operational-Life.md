@@ -1,0 +1,6 @@
+## Variance in Data
+Researching the operational life of various technologies proved to be difficult as sources often disagreed on appropriate values. For example, the [2017 EIA Annual Energy Outlook Report](https://www.eia.gov/outlooks/aeo/assumptions/pdf/0554(2017).pdf) which provides our Input Activity Ratios has significantly different values compared to the [NREL 2020 Annual Technology Baseline](https://atb.nrel.gov/electricity/2020/definitions.php) which provides our costs. 
+
+We have currently implemented the [2017 EIA Annual Energy Outlook Report](https://www.eia.gov/outlooks/aeo/assumptions/pdf/0554(2017).pdf) operations life values, which are listed as Service Life. Through research we found numbers more closely aligned with the EIA values rather then the NREL values. **ADD EXTRA SOURCES HERE**
+
+Due to the variability in operational life values from reputable sources, it will be good to perform a sensitivity analysis to further understand how the operational life effects renewable investment, emissions, and system cost. 
