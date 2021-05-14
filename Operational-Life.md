@@ -9,8 +9,8 @@ Due to the variability in operational life values from reputable sources, it wil
 The following table shows the operational life values used 
 | Technology                      | Operational Life (Years) | Source |
 |---------------------------------|--------------------------|--------|
-| Coal                            | 40 			     | EIA Power Plant Assumptions |
-| Coal Carbon Capture             | 40 			     | EIA Power Plant Assumptions |
+| Coal                            | 45 			     | EIA Power Plant Assumptions |
+| Coal Carbon Capture             | 45 			     | EIA Power Plant Assumptions |
 | Natural Gas Combined Cycle      | 35 			     | EIA Power Plant Assumptions |
 | Natural Gas Combustion Turbine  | 35 			     | EIA Power Plant Assumptions |
 | Nuclear      	                  | 60 			     | EIA Power Plant Assumptions |
@@ -18,8 +18,8 @@ The following table shows the operational life values used
 | Solar        	                  | 30 			     | EIA Power Plant Assumptions |
 | Hydro        	                  | 100 	             | [NREL 2020 Annual Technology Baseline](https://atb.nrel.gov/electricity/2020/definitions.php) |
 | Biomass     	                  | 45 			     | EIA Power Plant Assumptions |
-| Oil          	                  | 10   		     | EIA Power Plant Assumptions |
-| Power to Gas                    | 10 			     | EIA Power Plant Assumptions |
+| Oil          	                  |      		     |  |
+| Power to Gas                    |  			     |  |
 | Hydrogen Fuel Cell              | 10			     | [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) |
 
 ### Hydro
