@@ -19,7 +19,7 @@ The following table shows the operational life values used
 | Hydro        	                  | 100 	             | [NREL 2020 Annual Technology Baseline](https://atb.nrel.gov/electricity/2020/definitions.php) |
 | Biomass     	                  | 45 			     | EIA Power Plant Assumptions |
 | Oil          	                  |      		     |  |
-| Power to Gas                    |  			     |  |
+| Power to Gas                    |  20			     | [DOE Hydrogen and Fuel Cells Program Record] (https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) |
 | Hydrogen Fuel Cell              | 10			     | [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) |
 
 ### Hydro
@@ -29,7 +29,7 @@ We opted to use the operational life from the NREL because it estimated it to be
 The [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) released a report for [Technical Targets for Fuel Cell Systems for Stationary Applications](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power). In this report, the projected 2020 lifetime for a **stationary** fuel cell is 80,000hrs. We estimate this to be 10years. This lifetime is **not** representative of fuel cells used in the transportation industry
 
 ### Power to Gas
-**Not seeing where our Power to Gas Operational life is coming from**
+The [Hydrogen Program] (https://www.hydrogen.energy.gov/) released a report for [DOE Hydrogen and Fuel Cells Program Record](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) from February 3, 2020 . Based on this report the lifetime of the P2G PEM  is 20 years. 
 
 ## Assumptions 
 * The operational life for all technologies is the same for all regions
