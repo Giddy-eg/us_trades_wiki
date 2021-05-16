@@ -34,3 +34,4 @@ The [Hydrogen Program](https://www.hydrogen.energy.gov/) released a report for [
 ## Assumptions 
 * The operational life for all technologies is the same for all regions
 * Hydro stations will **not** be shut down throughout the model run 
+* EIA Power Plant Assumptions for operational life have been compared with other sources to confirm accuracy. A tested example was the natural gas operational life which is 35 years and matches with [Combined-Cycle Plant Life Assessments](https://sargentlundy.com/wp-content/uploads/2017/05/Combined-Cycle-PowerPlant-LifeAssessment.pdf) and [Life Cycle Assessment of a Combined-Cycle Gas Turbine with a Focus on the Chemicals Used in Water Conditioning](https://www.mdpi.com/2071-1050/11/10/2912/htm).
