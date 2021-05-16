@@ -19,7 +19,7 @@ The following table shows the operational life values used
 | Hydro        	                  | 100 	             | [NREL 2020 Annual Technology Baseline](https://atb.nrel.gov/electricity/2020/definitions.php) |
 | Biomass     	                  | 45 			     | EIA Power Plant Assumptions |
 | Oil          	                  |      		     |  |
-| Power to Gas                    | 20			     | [DOE Hydrogen and Fuel Cells Program Record] (https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) |
+| Power to Gas                    | 20			     | [DOE Hydrogen and Fuel Cells Program Record](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) |
 | Hydrogen Fuel Cell              | 10			     | [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) |
 
 ### Hydro
