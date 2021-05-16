@@ -1,9 +1,9 @@
 ## Sources
 ### Canada Energy Regulator 
-Originally, residual capacities were extracted from this [Canadian Energy Regulator Site](https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2019/results/index.html). This provided reliable Canadian Government backed existing capacity numbers for a variety of technologies separated by provinces. The issue with this data set is that the aggregation method used is more coarse then what our model needs. For example, the values group all steam turbine fuels into one technology, instead of breaking it down into coal, natural gas, oil, ect. The second issue is that these numbers do not provide commissioning dates. Therefore, we would either have to assume general commission dates which could effect capacity investment in the future. 
+Originally, residual capacities were extracted from this [Statistics Canada Site](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101). This provided reliable Canadian Government backed existing capacity numbers for a variety of technologies separated by provinces. The issue with this data set is that the aggregation method used is more coarse then what our model needs. For example, the values group all steam turbine fuels into one technology, instead of breaking it down into coal, natural gas, oil, ect. The second issue is that these numbers do not provide commissioning dates. Therefore, we would either have to assume general commission dates which could effect capacity investment in the future. 
 
 ### Wikipedia
-Although Wikipedia sources need to be carefully verified, due to its open-source nature, it can act as a fantastic resource to compile a large amount of data quickly. Currently, the majority of our residual capacities and commissioning dates come from wikipedia pages (each reference can be found in the file `dataSources/ResidualCapacitiesByProvince.csv`). The total capacity numbers were cross-referenced against the [Canadian Energy Regulator Site](https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2019/results/index.html) and this [Energy Rates Site](https://energyrates.ca/the-main-electricity-sources-in-canada-by-province/). This insured our assumption of trusting Wikipedia compiled numbers are in the correct ballpark when comparing percentage generation by source and aggregating multiple sources. 
+Although Wikipedia sources need to be carefully verified, due to its open-source nature, it can act as a fantastic resource to compile a large amount of data quickly. Currently, the majority of our residual capacities and commissioning dates come from Wikipedia pages (each reference can be found in the file `dataSources/ResidualCapacitiesByProvince.csv`). The total capacity numbers were cross-referenced against this [Statistics Canada Site](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101), this [Canadian Energy Regulator Site](https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2019/results/index.html) and this [Energy Rates Site](https://energyrates.ca/the-main-electricity-sources-in-canada-by-province/). This insured our assumption of trusting Wikipedia compiled numbers are in the correct ballpark when comparing percentage generation by source and aggregating multiple sources. 
 
 It needs to be noted, we have **not** yet verified the sources Wikipedia is extracting its information from.
 
@@ -19,6 +19,12 @@ We assume that all hydro stations are going to be maintained throughout the mode
 
 ## Wind and Solar
 The Wikipedia sources (listed in `dataSources/ResidualCapacitiesByProvince.csv`) usually provide commission dates for existing facilities and planned facilities. However, in some cases these dates could not be found. In cases where an existing plants commissioning date could not be found, it was estimated to be commissioned in 2010. In cases where planned facilities commissioning dates could not be found, they were estimated to open in 2025. 
+
+## Natural Gas  
+In the model we include two types of natural gas power plants, a combined cycle and a combustion turbine. In cases where there were insufficient information on the power plant to classify it as one or the other, it was assumed to be a combined cycle
+
+## Biomass
+All biomass capacities and commissioning data currently comes from Wikipedia as shown in `dataSources/ResidualCapacitiesByProvince.csv`. If the commissioning date of a facility could not be found it was assumed to be commissioned in 2010. 
 
 ## Assumptions 
 * Capacity does **not** ramp down near the end of a stations life. The station goes from having full capacity in one year, to zero capacity after its retirement year
