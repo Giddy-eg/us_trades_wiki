@@ -39,17 +39,17 @@ Technology details indicate resource levels and specific technology subcategorie
 
 NREL provides a representative value for each category. This value is the one that most closely aligns with recently installed or anticipated near-term installations of electricity generation plants. We used the representative value cost for each technology as it provides a reliable average baseline number for all geography. If costs are calculated based on region, then the technology details category can be used to find geographically accurate numbers. The representative value for each technology is shown in the table below. More information on how this number was calculated can be found on the [NREL ATO Webpage](https://atb.nrel.gov/electricity/2020/definitions.php)
 
-| Technology                     | Technology Detail         | Abbreviation |
-|--------------------------------|---------------------------|--------------|
-| Coal                           | EIA Coal-New - High CF    | IGCCHighCF   |
-| Coal Carbon Capture            | Coal-CCS-30%-High CF      | CCS30HighCF  |
-| Hydropower                     | Non-Powered Dams Class 4  | NPD4         |
-| Natural Gas Combined Cycle     | EIA Gas CC - High CF      | CCHighCF     |
-| Natural Gas Combustion Turbine | Natural Gas EIA CT High C | CTHighCF     |
-| LandbasedWind                  | Wind Speed Class 4        | LTRG4        |
-| Utility Scale PV               | Kansas City               | KansasCity   |
-| Nuclear                        | na                        | na           |
-| Biopower                       | EIA Dedicated             | Dedicated    |
+| Technology                     | Technology Detail          | Abbreviation |
+|--------------------------------|----------------------------|--------------|
+| Coal                           | EIA Coal-New - High CF     | IGCCHighCF   |
+| Coal Carbon Capture            | Coal-CCS-30%-High CF       | CCS30HighCF  |
+| Hydropower                     | Non-Powered Dams Class 4   | NPD4         |
+| Natural Gas Combined Cycle     | EIA Gas CC - High CF       | CCHighCF     |
+| Natural Gas Combustion Turbine | Natural Gas EIA CT High CT | CTHighCF     |
+| LandbasedWind                  | Wind Speed Class 4         | LTRG4        |
+| Utility Scale PV               | Kansas City                | KansasCity   |
+| Nuclear                        | na                         | na           |
+| Biopower                       | EIA Dedicated              | Dedicated    |
 
 NOTE: No nuclear range was represented in the ATB
 NOTE: NREL did not explicitly provide a representative value for Natural Gas Combustion Turbine. From the raw data sheet, the representative value for Natural Gas Combustion Turbine was assumed to be "Natural Gas EIA CT High CF"
