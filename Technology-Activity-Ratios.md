@@ -1,0 +1,2 @@
+## US Energy Information Administration 
+The following technologies came from the Cost and Performance Characteristics of New Generating Technologies section in the [2021 Annual Energy Outlook](https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf). A summary of the input activity rations used are described in the table below. 
