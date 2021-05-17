@@ -21,6 +21,7 @@ The following table shows the operational life values used
 | Oil          	                  |      		     |  |
 | Power to Gas                    | 20			     | [DOE Hydrogen and Fuel Cells Program Record](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) |
 | Hydrogen Fuel Cell              | 10			     | [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/eere/fuelcells/doe-technical-targets-fuel-cell-systems-stationary-combined-heat-and-power) |
+| Hydrogen Storage Tank           | Indefinitely             | [Your storage mix: can Power-to-Gas (P2G) fit in?](https://nrc.canada.ca/en/stories/your-storage-mix-can-power-gas-p2g-fit|
 
 ### Hydro
 We opted to use the operational life from the NREL because it estimated it to be 100 years. We want to impose the assumption that Hydro plants will not be shut down in the model, and instead maintained indefinitely. We set this assumption because Canada is very reliant on Hydro, and it is a renewable source. 
@@ -30,6 +31,9 @@ The [Office of Energy Efficiency and Renewable Energy](https://www.energy.gov/ee
 
 ### Power to Gas
 The [Hydrogen Program](https://www.hydrogen.energy.gov/) released a report for [DOE Hydrogen and Fuel Cells Program Record](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf). Based on this report which is dated February 3, 2020, the lifetime of the P2G is 20 years. 
+
+### Hydrogen Storage Tank
+The [Your storage mix: can Power-to-Gas (P2G) fit in?](https://nrc.canada.ca/en/stories/your-storage-mix-can-power-gas-p2g-fit) from the [Government of Canada](https://www.canada.ca/en.html) mentions that once the hydrogen gas has been generated, it can be stored almost indefinitely in hydrogen storage tanks. Hence, a large value "999999" is used for the operational life of storage in our model.
 
 ## Assumptions 
 * The operational life for all technologies is the same for all regions
