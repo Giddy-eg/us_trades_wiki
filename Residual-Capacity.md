@@ -12,7 +12,7 @@ It needs to be noted, we have **not** yet verified the sources Wikipedia is extr
 As coal is a heavy emitter, numerous coal power plants are beginning to be phased out. Some references included a decommissioning date which is transferred over into the model. In cases where a decommissioning date was not listed, the operational life was applied to the commission date to find set the retirement year. 
 
 ### Coal Conversion to Natural Gas
-As coal is being phased in due to the high emission levels, some plants are being converted into natural gas facilities. In these cases, the capacity flips from being for a coal technology to a natural gas technology. Specifically this is found in the Alberta H.R. Milner Generating Facility and in the Alberta Genesee Generating Facility. 
+As coal is being phased out due to the high emission levels, some plants are being converted into natural gas facilities. In these cases, the capacity flips from being for a coal technology to a natural gas technology. Specifically this is found in the Alberta H.R. Milner Generating Facility and in the Alberta Genesee Generating Facility. 
 
 ## Hydro 
 We assume that all hydro stations are going to be maintained throughout the model run. Therefore, we used the more reliable [Canadian Energy Regulator](https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2019/results/index.html) residual capacity for hydro power. 
