@@ -1,0 +1,1 @@
+The North American Electric Reliability Corporation (NERC) provides guidelines on how to assign reserve margins. On [this page](https://www.nerc.com/pa/RAPA/ri/Pages/PlanningReserveMargin.aspx), they define reserve margin as the amount of generation capacity available to meet expected demand in planning horizon.
