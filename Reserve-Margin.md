@@ -17,3 +17,6 @@ From this we assumed reserve margins for each province based on if their generat
 | Newfoundland  | 10                 |
 | Nova Scotia   | 15                 |
 | PEI           | 15                 |
+
+## Regionalized Reserve Margin 
+The model groups provinces into distinct regions, which is discussed in [this wiki page](https://github.com/DeltaE/Canada-U.S.-ElecTrade/wiki#regions). The provinces grouped into each region will **not** necessarily share the same reserve margin. To account for this, a weighted reserve margin is calculated. The weighting is based on the provinces total demand, and uses the values found in `dataSources/ProvincialAnnualDemand.csv`
