@@ -63,6 +63,10 @@ The United States Office of Energy Efficiency and Renewable Energy published [Te
 
 ### Power to Gas
 The Hydrogen Program from the [Energy.Gov](https://www.hydrogen.energy.gov/) published [Cost of Electrolytic Hydrogen Production with Existing Technology](https://www.hydrogen.energy.gov/pdfs/20004-cost-electrolytic-hydrogen-production.pdf) in the DOE Hydrogen and Fuel Cells Program Record on September 14, 2020. The document contains the current and future capital cost for P2G PEM which is used in our model.
+
+### Hydrogen Storage Tank
+The capital cost of Stationary Gaseous Hydrogen Storage Tanks was collected from [DOE Technical Targets for Hydrogen Delivery](https://www.energy.gov/eere/fuelcells/doe-technical-targets-hydrogen-delivery). The Total Electrical Usage ratio of 51.4 kWh/kg was used to calculate the correct units ($/GW).
+
 ## Fixed Cost
 ### NREL Database 
 The fixed cost for all NREL technologies was found by filtering the `core_metric_parameter` by Fixed Operation and Maintence (Fixed O&M). This Operations and Maintenance figure includes insurance, property taxes, site security, and project management fees for example. The complete list can be found on the [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php)
