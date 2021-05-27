@@ -36,8 +36,9 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 |--------------|--------------|--------------------|
 | West         | W            | BC, Alberta |
 | Mid-West     | MW           | Saskatchewan, Manitoba |
-| Mid-East     | ME           | Ontario, New Brunswick |
-| East         | E            | Quebec, Nova Scotia, PEI, Newfoundland Labrador |
+| Quebec       | CanQC        | Quebec |
+| Ontario      | CanONT       | Ontario |
+| Atlantic     | CanATL       | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
 
 ## Technologies
 ### Power Generators
