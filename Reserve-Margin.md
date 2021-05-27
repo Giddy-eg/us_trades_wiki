@@ -25,9 +25,13 @@ The model groups provinces into distinct regions, which is discussed in [this wi
 
 The regionalized reserve margin formula implemented is shown below:  
 
-<img src="https://render.githubusercontent.com/render/math?math=(ReserveMargiun)_{Region} = \sum \frac{(Demand)_{Province}}{(Demand)_{Region}} (ReserveMargin)_{Province}">
+<img src="https://render.githubusercontent.com/render/math?math=(ReserveMargin)_{Region} = \sum \frac{(Demand)_{Province}}{(Demand)_{Region}} (ReserveMargin)_{Province}">
 
 ## Peak Squishing
-The regionalized reserve margin calculated above is applied to our timesliced max demand. This is **not** representative of the actual max demand. Based on our [models timeslicing approach](https://github.com/DeltaE/Canada-U.S.-ElecTrade/wiki#timeslicing), we have compressed each three month season into a single 24 hour day. The demand for this single day represents the average demand for the season. This means, if a large demand peak occurs due to unpredictable weather (or any other factor) it is **not** captured in our average seasonal day. 
+The regionalized reserve margin calculated above is applied to our timesliced demand. This is **not** representative of the actual max demand. Our [timeslicing approach](https://github.com/DeltaE/Canada-U.S.-ElecTrade/wiki#timeslicing) compresses each three month season into a single 24 hour day. The demand for this single day represents the average demand for the season. This means if a large demand peak occurs in real life due to unpredictable weather (or any other factor) it is **not** captured in our average seasonal day. 
 
-To account for this, we add extra reserve margin to our previously calculated reserve margin. 
+To account for this, we add extra reserve margin to the baseline NERC regional weighted reserve margin calculated above. The timesliced adjusted reserve margin is calculated through finding the percent difference between the peak and timesliced peak demands. This value is then added to the existing regionalized reserve margin. The formula is shown below: 
+
+<img src="https://render.githubusercontent.com/render/math?math=(AdjustedReserveMargin)_{Region} = (ReserveMargin)_{Region} %2b \left [ \frac{(PeakDemand)_{Actual}\cdot (PeakDemand)_{Model}}{(PeakDemand)_{Actual}} \right ]_{Region}">
+
+To find the actual peak demand we used the reported 2019 provincial load numbers. We utilize the same 2019 dataset for all years to find the percent difference between the actual and modeled peaks. 
