@@ -14,6 +14,9 @@ The model is broken into four seasons, as summarized below. Each season starts/e
 | Summer | S            | July, August, September |
 | Fall   | F            | October, November, December |
 
+### Seasonal Days
+Each season in the model is represented by a single 24 hour day to simplify processing and solving. This results in 96 timeslices for each year. Representing each season as a full 24 hour day allows us to capture parameters that are sensitive to time of the day, such as solar, wind, and energy loads. This seasonal 24 timeslicing methodology is similar to Jayadev et al. paper on [US energy infrastructure planning](https://www.sciencedirect.com/science/article/abs/pii/S0306261919319543)
+
 ### Time Zones
 A "Model Time" is implemented to account for time zone differences. British Columbia is referenced as "Time Zero" and data is shifted for each time zone accordingly. This allows time zone differences to be included in how the model uses transmission. The table below summarizes the time shifts per province. An example on how to read this table is, the input demand at 2pm Local BC time is matched up with the input demand at 3pm Local Alberta Time. 
 
@@ -90,16 +93,16 @@ Below is a table hihglighting the input units for each parameter in the model
 | AccumulatedAnnualDemand 		       |      		   |
 | AnnualEmissionLimit      		       |            	   |
 | AnnualExogenousEmission 		       |            	   |
-| AvailabilityFactor      		       |      		   |
+| AvailabilityFactor      		       | na    		   |
 | CapacityFactor      			       | na                |
 | CapacityOfOneTechnologyUnit     	       |      		   |
-| CapitalCost      			       | $/GW              |
-| CapitalCostStorage 			       | Update            |
+| CapitalCost      			       | M$/GW             |
+| CapitalCostStorage 			       | M$/GW             |
 | DiscountRate      			       |      		   |
 | DiscountRateStorage      		       |           	   |
-| EmissionActivityRatio 		       | Tonne CO2 / PJ    |
-| EmissionPenalty      			       | $/Tonne CO2       |
-| FixedCost     		               | $/GW              |
+| EmissionActivityRatio 		       | MTon CO2 / PJ     |
+| EmissionPenalty      			       | M$/MTon CO2       |
+| FixedCost     		               | M$/GW             |
 | InputActivityRatio 			       | na                |
 | MinStorageCharge      		       |      		   |
 | ModelPeriodEmissionLimit    		       |           	   |
@@ -107,9 +110,9 @@ Below is a table hihglighting the input units for each parameter in the model
 | OperationalLife    			       | Years             |
 | OperationalLifeStorage    		       | Years             |
 | OutputActivityRatio 			       | na                |
-| Reserve Margin      			       | update            |
+| Reserve Margin      			       | GW                |
 | ResidualCapacity     			       | GW                |
-| ResidualStorageCapacity 		       |                   |
+| ResidualStorageCapacity 		       | GW                |
 | SpecifiedAnnualDemand      		       | PJ                |
 | SpecifiedDemandProfile 		       | na                |
 | StorageLevelStart    			       |      		   |
@@ -123,4 +126,4 @@ Below is a table hihglighting the input units for each parameter in the model
 | TotalTechnologyAnnualActivityUpperLimit      |           	   |
 | TotalTechnologyModelPeriodActivityLowerLimit |           	   |
 | TotalTechnologyModelPeriodActivityUpperLimit |           	   |
-| Variable Cost      			       | $/PJ              |
+| Variable Cost      			       | M$/PJ             |
