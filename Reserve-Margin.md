@@ -32,6 +32,6 @@ The regionalized reserve margin calculated above is applied to our timesliced de
 
 To account for this, we add extra reserve margin to the baseline NERC regional weighted reserve margin calculated above. The timesliced adjusted reserve margin is calculated through finding the percent difference between the peak and timesliced peak demands. This value is then added to the existing regionalized reserve margin. The formula is shown below: 
 
-<img src="https://render.githubusercontent.com/render/math?math=(AdjustedReserveMargin)_{Region} = (ReserveMargin)_{Region} %2b \left [ \frac{(PeakDemand)_{Actual}\cdot (PeakDemand)_{Model}}{(PeakDemand)_{Actual}} \right ]_{Region}">
+<img src="https://render.githubusercontent.com/render/math?math=(AdjustedReserveMargin)_{Region} = (ReserveMargin)_{Region} %2b \left [ \frac{(PeakDemand)_{Actual} - (PeakDemand)_{Model}}{(PeakDemand)_{Actual}} \right ]_{Region}">
 
 To find the actual peak demand we used the reported 2019 provincial load numbers. We utilize the same 2019 dataset for all years to find the percent difference between the actual and modeled peaks. 
