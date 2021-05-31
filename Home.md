@@ -37,11 +37,11 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 
 | Model Region | Abbreviation | Provinces Included | 
 |--------------|--------------|--------------------|
-| West         | W            | BC, Alberta |
+| West         | WS           | BC, Alberta |
 | Mid-West     | MW           | Saskatchewan, Manitoba |
-| Quebec       | CanQC        | Quebec |
-| Ontario      | CanONT       | Ontario |
-| Atlantic     | CanATL       | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
+| Quebec       | QC           | Quebec |
+| Ontario      | OT           | Ontario |
+| Atlantic     | AT           | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
 
 ## Technologies
 ### Power Generators
@@ -55,7 +55,6 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Solar               | PV |
 | Nuclear             | NUC | 
 | Biomass             | BIO | 
-| Oil                 | OI |
 | Power to Gas        | P2G |
 | Hydrogen Fuel Cells | FC | 
 
@@ -70,7 +69,6 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Solar               | MIN_PV |
 | Nuclear             | MIN_NUC | 
 | Biomass             | MIN_BIO | 
-| Oil                 | MIN_OI |
 
 ### Storage
 
@@ -86,7 +84,7 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Hydrogen     | H2 |
 
 ## Units
-Below is a table hihglighting the input units for each parameter in the model 
+Below is a table highlighting the input units for each parameter in the model 
 
 | Parameter                                    | Units in Model    |
 | -------------------------------------------  |:-----------------:|
