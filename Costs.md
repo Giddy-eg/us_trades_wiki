@@ -67,6 +67,9 @@ The Hydrogen Program from the [Energy.Gov](https://www.hydrogen.energy.gov/) pub
 ### Hydrogen Storage Tank
 The capital cost of Stationary Gaseous Hydrogen Storage Tanks was collected from [DOE Technical Targets for Hydrogen Delivery](https://www.energy.gov/eere/fuelcells/doe-technical-targets-hydrogen-delivery). The Total Electrical Usage ratio of 51.4 kWh/kg [Ref.](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) was used to calculate the correct units ($/GW).
 
+### Transmission 
+The capital Cost for transmission depends on several factors such as number of circuits, voltage ratings and distance. The current cost used in our model will be 1.65$M/km. The costs are collected from [Transmission Cost Estimation Guide](https://cdn.misoenergy.org/20190212%20PSC%20Item%2005a%20Transmission%20Cost%20Estimation%20Guide%20for%20MTEP%202019_for%20review317692.pdf), [ELECTRICITY 101](https://electricity.ca/wp-content/uploads/2017/12/Electricity101_July-11_2018.pdf) & [CAPITAL COSTS FOR TRANSMISSION AND SUBSTATIONS](https://www.wecc.org/reliability/1210_bv_wecc_transcostreport_final.pdf).
+
 ## Fixed Cost
 ### NREL Database 
 The fixed cost for all NREL technologies was found by filtering the `core_metric_parameter` by Fixed Operation and Maintence (Fixed O&M). This Operations and Maintenance figure includes insurance, property taxes, site security, and project management fees for example. The complete list can be found on the [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php)
@@ -76,6 +79,10 @@ The United States Office of Energy Efficiency and Renewable Energy published [Te
 
 ### Power to Gas
 The PEM fixed costs are from the [Hydrogen Production Cost From PEM Electrolysis - 2019](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) published in February 3, 2019 in the DOE Hydrogen and Fuel Cells Program Record. The 2019 and 2035 fixed cost for Distributed Capacity was collected and is used in our model. The Total Electrical Usage ratio of 51.4 kWh/kg [Ref.](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) was used to calculate the correct units ($/GW).
+
+### Transmission 
+The Fixed Cost for transmission used in our model will be 0.0054$M/GW. The cost is collected from [Transmission Rate Projection](https://www.aeso.ca/assets/Uploads/AESO-2021-TRP-Fact-Sheet-FINAL.pdf).
+
 ## Variable Cost
 ### NREL Database 
 The variable cost for all NREL technologies was found by filtering the `core_metric_parameter` by Variable Operation and Maintenance (Variable O&M) and Fuel. These values represent the cost of running the power plant, such as operation labor, and the cost of purchasing fuel for the plant. Summing these values together gives us the input variable cost for our model. More information on these values can be found on the [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php)
