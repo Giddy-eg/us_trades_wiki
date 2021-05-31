@@ -26,6 +26,9 @@ In the model we include two types of natural gas power plants, a combined cycle 
 ## Biomass
 All biomass capacities and commissioning data currently comes from Wikipedia as shown in `dataSources/ResidualCapacitiesByProvince.csv`. If the commissioning date of a facility could not be found it was assumed to be commissioned in 2010. 
 
+## Trade
+The residual capacity (installed capacity) for each province is collected from the [Government of Canada](https://www.nrcan.gc.ca/our-natural-resources/electricity-infrastructure/electricity-canada/canadas-electric-reliability-fra/newfoundland-and-labradors-electric-reliability-framework/18834) website. The provinces' values are added based on the model's regions.
+
 ## Assumptions 
 * Capacity does **not** ramp down near the end of a stations life. The station goes from having full capacity in one year, to zero capacity after its retirement year
 * Hydro stations are **not** decommissioned throughout our model run
