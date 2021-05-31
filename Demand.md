@@ -27,6 +27,9 @@ To calculate the hourly load value (in Watts) for the missing provinces...
 *  Hourly Load Unknown Province = Ratio * Hourly Load Known Province
 3.  The resulting normalized load profile will be the same as the known provinces profile. However, when regions are built the raw load value (in Watts) will contribute to the weighted average load profile the appropriate amount 
 
+# Missing Technology (Petroleum)
+Petroleum data are not added in our model. Currently, less than 1% of Canadian electricity is produced from petroleum [Provincial and Territorial Energy Profiles – Canada](https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-canada.html). The majority of electricity production in the country is through renewable and non-GHG emitting sources [Electricity facts](https://www.nrcan.gc.ca/science-data/data-analysis/energy-data-analysis/energy-facts/electricity-facts/20068). Therefore, electricity is produced from renewable and nuclear sources sources as a primary energy since it is captured from natural resources [About Electricity](https://www.nrcan.gc.ca/our-natural-resources/energy-sources-distribution/electricity-infrastructure/about-electricity/7359).
+
 ## Daylight Savings 
 Daylight saving is dealt with in the following manor: 
 * If an hour is removed, the line item from the source is either omitted or reported as zero (ie. 3am has a load of 0). In this case we take the demand from the previous hour and map it to the missing hour. 
