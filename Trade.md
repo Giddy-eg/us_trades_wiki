@@ -3,7 +3,9 @@ The model allows for the trade of electricity between regions.
 
 ## Canadian Trade 
 
-The map below shows available electricity trading paths for each Canadian Region. The red 'X' indicates a modeled central trading station for the model to trade electricity. The red dashed line then indicates the approximated distance between each trading station. For the Atlantic region, the trading station was placed closer to New Brunswick and Nova Scotia as their annual demand is greater then that of Newfoundland and Labrador. The only purpose of the modeled central trading station is to indicate approximate distances new transmission lines will have to be built. This is further discussed in the capital cost section 
+The map below shows available electricity trading paths for each Canadian Region. The red 'X' indicates a modeled central trading station for each region. The red dashed line then indicate available trade paths and approximate distances between each trading station. While the model does not utilize the distances between the trading station, our input data requires it. Capital cost numbers based on capacity could not be found. However, there is ample literature on average cost for transmission lines based on distances. Therefore, we found approximate distances to build new transmission lines and used this number to calculate capital costs. 
+
+The Atlantic region had two options for trade distances. We could either use a distance that ends in New Brunswick, or a distance that ends in Newfoundland and Labrador. We approximated the distance to end in closer to New Brunswick and Nova Scotia as their annual demand is greater then that of Newfoundland and Labrador.  
 
 <img src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" data-canonical-src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" width="525" height="450" />
 
