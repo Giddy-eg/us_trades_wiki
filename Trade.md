@@ -29,6 +29,15 @@ The Capital Cost for transmission depends on several factors such as number of c
 
 The transmission SIL measurement are located in [AMERICAN ELECTRIC POWER-Transmission Facts](https://web.ecs.baylor.edu/faculty/grady/_13_EE392J_2_Spring11_AEP_Transmission_Facts.pdf), [Transmission Lines Electricity's Highways](https://site.ieee.org/northern-canada-pesias/files/2013/01/Transmission-Lines-Presentation.pdf), [ENG 505 - ENERGY SURETY AND SYSTEMS-Electricity Transmission Systems](https://www.osti.gov/servlets/purl/1117566).
 
+Based on the [St. Clair curve](https://www.researchgate.net/figure/The-St-Clair-curve-as-based-on-the-results-of-14-retrieved-from-15-is-used-to_fig3_318692193), the transmission line load limit reduces as the distance increases. This is due to the increase in resistance and additional power losses. Using this curve and the estimated distance between each region, the load-ability and cost per power is calculated and presented in the table below.
+
+| Start Region | End Region | Distance (km) | Load-Ability (GW)  |  Cost/Power ($/GW)   |
+|--------------|------------|---------------|--------------------||---------------------|
+| West         | Mid West   | 795 | 0.75 x 0.9 = 0.675 | 795 x 3 / 0.675 = 3,533  |
+| Mid West     | Ontario    | 952 | 0.63 x 0.9 = 0.567 | 952 x 3 / 0.567 = 5,037  |
+| Ontario      | Quebec     | 1,138 | 0.625 x 0.9 = 0.563 | 1,138 x 3 / 0.563 = 6,064  |
+| Quebec       | Atlantic   | 913 | 0.635 x 0.9 = 0.572 |913 x 3 / 0.572 = 4,788  |
+
 ### Fixed Costs 
 The Fixed Cost for transmission used in our model will be 0.0054$M/GW. The cost is collected from [Transmission Rate Projection](https://www.aeso.ca/assets/Uploads/AESO-2021-TRP-Fact-Sheet-FINAL.pdf).
 
