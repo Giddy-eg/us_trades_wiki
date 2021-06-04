@@ -31,11 +31,11 @@ The residual capacity (installed capacity) for each province is collected from t
 
 | Region | Can (GW) | U.S. (GW) |
 |--------|----------|-----------|
-| CanW   |   8.05   |   1.46    |
+| CanWS  |   8.05   |   1.46    |
 | CanMW  |   2.19   |   1.14    |
-| CanOnt |  16.63   |   2.32    |
-| CanQc  |  19.16   |   3.24    |
-| CanAtl |  15.07   |   0.17    |
+| CanOT  |  16.63   |   2.32    |
+| CanQC  |  19.16   |   3.24    |
+| CanAT  |  15.07   |   0.17    |
 
 ## Assumptions 
 * Capacity does **not** ramp down near the end of a stations life. The station goes from having full capacity in one year, to zero capacity after its retirement year
