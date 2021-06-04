@@ -31,7 +31,7 @@ The transmission SIL measurement are located in [AMERICAN ELECTRIC POWER-Transmi
 
 Based on the [St. Clair curve](https://www.researchgate.net/figure/The-St-Clair-curve-as-based-on-the-results-of-14-retrieved-from-15-is-used-to_fig3_318692193), the transmission line load limit reduces as the distance increases. This is due to the increase in resistance and additional power losses. Using this curve and the estimated distance between each region, the load-ability and cost per power is calculated and presented in the table below.
 
-| Start Region | End Region | Distance (km) | Load-Ability (GW)  |  Cost/Power ($/GW)   |
+| Start Region | End Region | Distance (km) | Load-Ability (GW)  |  Cost/Power ($/GW)   |\
 |--------------|------------|---------------|--------------------||---------------------|
 | West         | Mid West   | 795 | 0.75 x 0.9 = 0.675 | 795 x 3 / 0.675 = 3,533  |
 | Mid West     | Ontario    | 952 | 0.63 x 0.9 = 0.567 | 952 x 3 / 0.567 = 5,037  |
