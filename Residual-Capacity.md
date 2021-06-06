@@ -42,7 +42,7 @@ The residual capacity (installed capacity) for each province is collected from t
 | Can-WS&MW    |   5.07   |
 | Can-MW&OT    |   9.46   |
 | Can-OT&QC    |  17.90   |
-| Can-QC-AT    |  17.11   |
+| Can-QC-AT    |  13.35   |
 
 ## Assumptions 
 * Capacity does **not** ramp down near the end of a stations life. The station goes from having full capacity in one year, to zero capacity after its retirement year
