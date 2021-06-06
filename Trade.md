@@ -9,13 +9,6 @@ The Atlantic region had two options for trade distances. We could either use a d
 
 <img src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" data-canonical-src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" width="525" height="450" />
 
-| Start Region | End Region | Distance (km) |
-|--------------|------------|---------------|
-| West         | Mid West   | 1200 |
-| Mid West     | Ontario    | 1300 |
-| Ontario      | Quebec     | 800 |
-| Quebec       | Atlantic   | 700 |
-
 ## Costs
 
 ### Capital Costs  
