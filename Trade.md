@@ -37,3 +37,18 @@ The Fixed Cost for transmission used in our model will be 0.0054$M/GW. The cost 
 ### Variable Costs
 
 ## Efficiency 
+
+## International Trade Locations
+Th Center for Strategies and International Studies published [this figure](https://www.csis.org/analysis/mapping-us-canada-energy-relationship) which highlights Canadian and USA trade locations. In total there are 25 trade locations that have been incorporated. 
+
+| Start Region    | End Region | Distance (km) |
+|-----------------|------------|---------------|
+| Canada West     | USA North West     | |
+| Canada West     | USA Mountain North | |
+| Canada Mid West | USA Central East   | |
+| Canada Mid West | USA Mid West       | |
+| Canada Ontario  | USA Mid West       | |
+| Canada Ontario  | USA New York       | |
+| Canada Quebec   | USA New York       | |
+| Canada Quebec   | USA New England    | |
+| Canada Atlantic | USA New England    | |
