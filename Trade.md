@@ -37,6 +37,13 @@ The Fixed Cost for transmission used in our model will be 0.0054$M/GW. The cost 
 ### Variable Costs
 
 ## Efficiency 
+The efficiency of the Transmission lines are considered as the output power of the line divided by the input power, 100% power capability of the transmission line (0.9GW). The following table shows the efficiency of the national trade (1/[output/input]).
+| Start Region | End Region | Efficiency |
+|--------------|------------|------------|
+| West         | Mid West   | 1.33       |
+| Mid West     | Ontario    | 1.59       |
+| Ontario      | Quebec     | 1.60       |
+| Quebec       | Atlantic   | 1.57      | 
 
 ## International Trade Locations
 Th Center for Strategies and International Studies published [this figure](https://www.csis.org/analysis/mapping-us-canada-energy-relationship) which highlights Canadian and USA trade locations. In total there are 25 trade locations that have been incorporated. 
