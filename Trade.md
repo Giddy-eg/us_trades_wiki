@@ -76,15 +76,15 @@ The existing international installed trade capacity was extracted from the same 
 
 ### Summary of International Trade Values
 
-| Start Region    | End Region         | Distance (km) | Capacity (GW) | Capital Cost ($/GW) |
-|-----------------|--------------------|---------------|---------------|---------------------|
-| Canada West     | USA North West     | 100           |  |  |
-| Canada West     | USA Mountain North | 100           |  |  |
-| Canada Mid West | USA Central East   | 100           |  |  |
-| Canada Mid West | USA Mid West       | 100           |  |  |
-| Canada Ontario  | USA Mid West       | 100           |  |  |
-| Canada Ontario  | USA New York       | 100           |  |  |
-| Canada Quebec   | USA New York       | 100           |  |  |
-| Canada Quebec   | USA New England    | 100           |  |  |
-| Canada Atlantic | USA New England    | 100           |  |  |
+| Start Region    | End Region         | Distance (km) | Capacity (GW) | Capital Cost (M$/GW) |
+|-----------------|--------------------|---------------|---------------|----------------------|
+| Canada West     | USA North West     | 100           | 1.46          | 133.3  |
+| Canada West     | USA Mountain North | 100           | 1.46          | 133.3  |
+| Canada Mid West | USA Central East   | 100           | 1.14          | 133.3  |
+| Canada Mid West | USA Mid West       | 100           | 1.14          | 133.3  |
+| Canada Ontario  | USA Mid West       | 100           | 2.32          | 133.3  |
+| Canada Ontario  | USA New York       | 100           | 2.32          | 133.3  |
+| Canada Quebec   | USA New York       | 100           | 3.24          | 133.3  |
+| Canada Quebec   | USA New England    | 100           | 3.24          | 133.3  |
+| Canada Atlantic | USA New England    | 100           | 0.17          | 133.3  |
 
