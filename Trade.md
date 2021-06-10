@@ -1,14 +1,6 @@
 ## Electricity Trade
 The model allows for the trade of electricity between regions. 
 
-## Canadian Trade 
-
-The map below shows available electricity trading paths for each Canadian Region. The red 'X' indicates a modeled central trading station for each region. The red dashed line then indicate available trade paths and approximate distances between each trading station. While the model does not utilize the distances between the trading station, our input data requires it. Capital cost numbers based on capacity could not be found. However, there is ample literature on average cost for transmission lines based on distances. Therefore, we found approximate distances to build new transmission lines and used this number to calculate capital costs. 
-
-The Atlantic region had two options for trade distances. We could either use a distance that ends in New Brunswick, or a distance that ends in Newfoundland and Labrador. We approximated the distance to end in closer to New Brunswick and Nova Scotia as their annual demand is greater then that of Newfoundland and Labrador.  
-
-<img src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" data-canonical-src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" width="525" height="450" />
-
 ## Costs
 
 ### Capital Costs  
@@ -37,43 +29,62 @@ The Fixed Cost for transmission used in our model will be 0.0054$M/GW. The cost 
 ### Variable Costs
 
 ## Efficiency 
-The efficiency of the Transmission lines are considered as the output power of the line divided by the input power, 100% power capability of the transmission line (0.9GW). The following table shows the efficiency of the national trade (1/[output/input]).
-| Start Region | End Region | Efficiency |
-|--------------|------------|------------|
-| West         | Mid West   | 1.33       |
-| Mid West     | Ontario    | 1.59       |
-| Ontario      | Quebec     | 1.60       |
-| Quebec       | Atlantic   | 1.57      | 
+Sources such as the [EIA](https://www.eia.gov/tools/faqs/faq.php?id=105&t=3) will supply electricity transmission and distribution data on a state level. This will allow us to find average transmission looses for each region to take into account local factors. However, in this iteration of the project we have applied a country level average to all transmission lines. The following three sources estimate line losses to be in the range of 5 to 10%: 
 
-## International Trade Locations
-Th Center for Strategies and International Studies published [this figure](https://www.csis.org/analysis/mapping-us-canada-energy-relationship) which highlights Canadian and USA trade locations. In total there are 25 trade locations that have been incorporated. 
+* [EIA Electricity Lost in Transmission](https://www.eia.gov/tools/faqs/faq.php?id=105&t=3)
+* [NERC 2020 State of Reliability Report](https://www.nerc.com/pa/RAPA/PA/Performance%20Analysis%20DL/NERC_SOR_2020.pdf)
+* [Inside Energy](http://insideenergy.org/2015/11/06/lost-in-transmission-how-much-electricity-disappears-between-a-power-plant-and-your-plug/)
 
-| Start Region    | End Region | Distance (km) |
-|-----------------|------------|---------------|
-| Canada West     | USA North West     | |
-| Canada West     | USA Mountain North | |
-| Canada Mid West | USA Central East   | |
-| Canada Mid West | USA Mid West       | |
-| Canada Ontario  | USA Mid West       | |
-| Canada Ontario  | USA New York       | |
-| Canada Quebec   | USA New York       | |
-| Canada Quebec   | USA New England    | |
-| Canada Atlantic | USA New England    | |
+Therefore, we applied a 5% line loss to all transmission lines. In future iterations of this model, region specific transmission losses should be included. 
 
-## Residual Capacity
+## Canadian Trade 
+
+### Trade Paths 
+
+The map below shows available electricity trading paths for each Canadian Region. The red 'X' indicates a modeled central trading station for each region. The red dashed line then indicate available trade paths and approximate distances between each trading station. While the model does not utilize the distances between the trading station, our input data requires it. Capital cost numbers based on capacity could not be found. However, there is ample literature on average cost for transmission lines based on distances. Therefore, we found approximate distances to build new transmission lines and used this number to calculate capital costs. 
+
+The Atlantic region had two options for trade distances. We could either use a distance that ends in New Brunswick, or a distance that ends in Newfoundland and Labrador. We approximated the distance to end in closer to New Brunswick and Nova Scotia as their annual demand is greater then that of Newfoundland and Labrador.  
+
+<img src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" data-canonical-src="https://i.postimg.cc/3xPZMG2w/Canadian-Trading.png" width="525" height="450" />
+
+### Residual Capacity 
+
 The residual capacity (installed capacity) for each province is collected from the [Government of Canada](https://www.nrcan.gc.ca/our-natural-resources/electricity-infrastructure/electricity-canada/canadas-electric-reliability-fra/newfoundland-and-labradors-electric-reliability-framework/18834) website. The provinces' values are added based on the model's regions. Thereafter, the electricity exports from each region to the U.S. are collected from [Statistics Canada](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002101). The difference between each region's residual capacity and the U.S. exports are attained and divided into halves for regions with eastern and western neighboring regions (national trade). The average of the western and eastern trade of each region is calculated and placed in our model. The values (in GW) are shown in the table below.
 
-| Can Regions | U.S. (GW) |
-|-------------|-----------|
-|    CanWS    |   1.46    |
-|    CanMW    |   1.14    |
-|    CanOT    |   2.32    |
-|    CanQC    |   3.24    |
-|    CanAT    |   0.17    |
+### Summary of Canadian Trade Values
 
-| Can National | Can (GW) |
-|--------------|----------|
-| Can-WS&MW    |   5.07   |
-| Can-MW&OT    |   9.46   |
-| Can-OT&QC    |  17.90   |
-| Can-QC-AT    |  13.35   |
+| Start Region | End Region | Distance (km) | Capacity (GW) | Capital Cost ($/GW) |
+|--------------|------------|---------------|---------------|---------------------|
+| West         | Mid West   | 795           | 5.07          | 3533                |
+| Mid West     | Ontario    | 952           | 9.46          | 5037                |
+| Ontario      | Quebec     | 1,138         | 17.90         | 6064                |
+| Quebec       | Atlantic   | 913           | 13.35         | 4788                |
+
+## United States Trade
+
+
+
+## International Trade 
+
+### Trade Locations
+
+Th Center for Strategies and International Studies published [this figure](https://www.csis.org/analysis/mapping-us-canada-energy-relationship) which highlights Canadian and USA trade locations. In total there are 9 trade locations that have been incorporated. 
+
+### Residual Capacity
+
+The existing international installed trade capacity was extracted from the same source that the Canadian installed capacity utilized. [Statistics Canada](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002101) listed the electricity exports from each Canadian region to each USA region. A average distance of 100km was assumed for all new capital costs. 
+
+### Summary of International Trade Values
+
+| Start Region    | End Region         | Distance (km) | Capacity (GW) | Capital Cost ($/GW) |
+|-----------------|--------------------|---------------|---------------|---------------------|
+| Canada West     | USA North West     | 100           |  |  |
+| Canada West     | USA Mountain North | 100           |  |  |
+| Canada Mid West | USA Central East   | 100           |  |  |
+| Canada Mid West | USA Mid West       | 100           |  |  |
+| Canada Ontario  | USA Mid West       | 100           |  |  |
+| Canada Ontario  | USA New York       | 100           |  |  |
+| Canada Quebec   | USA New York       | 100           |  |  |
+| Canada Quebec   | USA New England    | 100           |  |  |
+| Canada Atlantic | USA New England    | 100           |  |  |
+
