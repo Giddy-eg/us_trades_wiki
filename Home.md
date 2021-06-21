@@ -46,42 +46,37 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 ## Technologies
 ### Power Generators
 
-| Technology          | Abbreviation |
-|---------------------|--------------|
-| Coal                | CL | 
-| Natural Gas         | GS | 
-| Hydro Power         | HYD |
-| Onshore Wind        | WN | 
-| Solar               | PV |
-| Nuclear             | NUC | 
-| Biomass             | BIO | 
-| Power to Gas        | P2G |
-| Hydrogen Fuel Cells | FC | 
-
-### Mining 
-
-| Technology          | Abbreviation |
-|---------------------|--------------|
-| Coal                | MIN_CL | 
-| Natural Gas         | MIN_GS | 
-| Hydro Power         | MIN_HYD |
-| Onshore Wind        | MIN_WN | 
-| Solar               | MIN_PV |
-| Nuclear             | MIN_NUC | 
-| Biomass             | MIN_BIO | 
+| Technology                           | Abbreviation |
+|--------------------------------------|--------------|
+| Coal                                 | COA | 
+| Coal Carbon Capture and Sequestration| COC | 
+| Combined Cycle Natural Gas           | CCG | 
+| Combustion Turbine Natural Gas       | CTG |
+| Hydro Power                          | HYD |
+| Onshore Wind                         | WND | 
+| Solar                                | SPV |
+| Nuclear                              | URN | 
+| Biomass                              | BIO | 
 
 ### Storage
 
 | Technology          | Abbreviation |
 |---------------------|--------------|
-| Hydrogen Storage    | TANK | 
+| | | 
 
 ### Fuels
 
 | Fuel         | Abbreviation |
 |--------------|--------------|
 | Electricity  | ELC | 
-| Hydrogen     | H2 |
+| Hydro        | HYD |
+| Solar        | SPV |
+| Wind         | WND |
+| Biomass      | BIO |
+| Coal         | COA |
+| Natural Gas  | GAS |
+| Uranium      | URN |
+
 
 ## Units
 Below is a table highlighting the input units for each parameter in the model 
