@@ -9,10 +9,10 @@ The model is broken into four seasons, as summarized below. Each season starts/e
 
 | Season | Abbreviation | Months Included | 
 |--------|--------------|--------------------|
-| Winter | W            | January, February, March |
-| Spring | SP           | April, May, June |
-| Summer | S            | July, August, September |
-| Fall   | F            | October, November, December |
+| Winter | W            | January, February, December|
+| Spring | SP           | April, May, March|
+| Summer | S            | July, August, June|
+| Fall   | F            | October, November, September|
 
 ### Seasonal Days
 Each season in the model is represented by a single 24 hour day to simplify processing and solving. This results in 96 timeslices for each year. Representing each season as a full 24 hour day allows us to capture parameters that are sensitive to time of the day, such as solar, wind, and energy loads. This seasonal 24 timeslicing methodology is similar to Jayadev et al. paper on [US energy infrastructure planning](https://www.sciencedirect.com/science/article/abs/pii/S0306261919319543)
