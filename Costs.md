@@ -92,4 +92,4 @@ The variable cost for all NREL technologies was found by filtering the `core_met
 ### Power to Gas
 The variable cost for PEM was found in [Techno-economic Analysis of PEM Electrolysis for Hydrogen Production](https://www.energy.gov/sites/prod/files/2014/08/f18/fcto_2014_electrolytic_h2_wkshp_colella1.pdf) dated February 27, 2014. A conservative value was added to our model following this document and using the Total Electrical Usage ratio of 51.4 kWh/kg [Ref.](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) to attain the correct units ($/PJ).
 
-### U.S.
+## U.S.
