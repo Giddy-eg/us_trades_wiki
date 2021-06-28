@@ -1,4 +1,5 @@
 ## Sources
+## CANADA
 ### Canada Energy Regulator 
 Originally, residual capacities were extracted from this [Statistics Canada Site](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101). This provided reliable Canadian Government backed existing capacity numbers for a variety of technologies separated by provinces. The issue with this data set is that the aggregation method used is more coarse then what our model needs. For example, the values group all steam turbine fuels into one technology, instead of breaking it down into coal, natural gas, oil, ect. The second issue is that these numbers do not provide commissioning dates. Therefore, we would either have to assume general commission dates which could effect capacity investment in the future. 
 
@@ -29,3 +30,5 @@ All biomass capacities and commissioning data currently comes from Wikipedia as 
 ## Assumptions 
 * Capacity does **not** ramp down near the end of a stations life. The station goes from having full capacity in one year, to zero capacity after its retirement year
 * Hydro stations are **not** decommissioned throughout our model run
+
+## U.S.
