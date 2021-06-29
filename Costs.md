@@ -94,4 +94,6 @@ The variable cost for PEM was found in [Techno-economic Analysis of PEM Electrol
 
 ## U.S.
 
-## Variable Cost
+## Capital Cost
+### NREL Database 
+The capital cost for all NREL technologies was found by filtering the `core_metric_parameter` by Capital Expenditure (CAPEX). This capital expenditure figure includes the general equipment and infrastructure, the electrical infrastructure and connections, the installation cost, the owners cost and the site cost. More information on included CAPEX costs can be found on [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php) 
