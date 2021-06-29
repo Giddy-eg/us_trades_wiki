@@ -96,4 +96,16 @@ The variable cost for PEM was found in [Techno-economic Analysis of PEM Electrol
 
 ## Capital Cost
 ### NREL Database 
-The capital cost for all NREL technologies was found by filtering the `core_metric_parameter` by Capital Expenditure (CAPEX). This capital expenditure figure includes the general equipment and infrastructure, the electrical infrastructure and connections, the installation cost, the owners cost and the site cost. More information on included CAPEX costs can be found on [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php) 
+The capital costs for all technologies were found by NREL ATB Capital Expenditure (CAPEX). This capital expenditure figure includes the general equipment and infrastructure, the electrical infrastructure and connections, the installation cost, the owners cost and the site cost. More information on included CAPEX costs can be found on [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php) 
+
+## Variable Cost
+### NREL Database
+The variable cost for all NREL technologies was found by filtering the `core_metric_parameter` by Variable Operation and Maintenance (Variable O&M) and Fuel. These values represent the cost of running the power plant, such as operation labor, and the cost of purchasing fuel for the plant. Summing these values together gives us the input variable cost for our model. More information on these values can be found on the [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php)
+
+## Fixed Cost
+### NREL Database 
+The fixed cost for all NREL technologies was found by filtering the `core_metric_parameter` by Fixed Operation and Maintence (Fixed O&M). This Operations and Maintenance figure includes insurance, property taxes, site security, and project management fees for example. The complete list can be found on the [NREL Definitions Page](https://atb.nrel.gov/electricity/2020/definitions.php)
+
+## Location Variation
+### EIA Database
+The ATB data doesn't include regional capital cost multipliers, so we applied the location variation data from [EIA Capital Cost Study](https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2020.pdf) to the ATB cost data. The regional multipliers were the average location variation values of states within a certain region. 
