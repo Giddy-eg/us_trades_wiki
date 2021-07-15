@@ -52,13 +52,3 @@ The first table below shows how we filtered the `dataSources/NREL_Costs` datashe
 | Natural Gas CT      |  2020   | See Cost Section      | Market           | 20       | NaturalGas    | CTHighCF   | Moderate |
 | Nuclear             |  2020   | See Cost Section      | Market           | 20       | Nuclear       | na         | Moderate |
 | Biomass             |  2020   | See Cost Section      | Market           | 20       | Biopower      | Dedicated  | Moderate |
-
-
-| Technology                     | Technology Detail          | Abbreviation |
-|--------------------------------|----------------------------|--------------|
-| Coal                           | EIA Coal-New - High CF     | IGCCHighCF   |
-| Coal Carbon Capture            | Coal-CCS-30%-High CF       | CCS30HighCF  |
-| Natural Gas Combined Cycle     | EIA Gas CC - High CF       | CCHighCF     |
-| Natural Gas Combustion Turbine | Natural Gas EIA CT High CT | CTHighCF     |
-| Nuclear                        | na                         | na           |
-| Biopower                       | EIA Dedicated              | Dedicated    |
