@@ -44,6 +44,7 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Quebec       | QC           | Quebec |
 | Ontario      | OT           | Ontario |
 | Atlantic     | AT           | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
+
 ##Canadian Regions
 
 
@@ -62,6 +63,7 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Florida           | FL           | FL                                |
 | New York          | NY           | NY                                |
 | New England       | NE           | VT, NH, ME, MA, CT, RI            |
+
 U.S. Abbreviation [Link](https://pe.usps.com/text/pub28/28apb.htm)
 ##U.S. Regions
 
