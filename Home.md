@@ -45,7 +45,7 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Ontario      | OT           | Ontario |
 | Atlantic     | AT           | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
 
-##Canadian Regions
+Canadian Regions
 
 
 |    Model Region   | Abbreviation | States Included                   | 
@@ -65,7 +65,8 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | New England       | NE           | VT, NH, ME, MA, CT, RI            |
 
 U.S. Abbreviation [Link](https://pe.usps.com/text/pub28/28apb.htm)
-##U.S. Regions
+
+U.S. Regions
 
 
 ## Technologies
