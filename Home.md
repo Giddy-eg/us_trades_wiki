@@ -34,6 +34,8 @@ Saskatchewan does not observe daylight savings time. Therefore, during the summe
 
 ## Regions 
 The model currently includes the 10 Canadian provinces, with plans to add in the mainland United States in the future. The table below summarizes how the provinces were separated into modeled regions. 
+##Canada
+
 
 | Model Region | Abbreviation | Provinces Included | 
 |--------------|--------------|--------------------|
@@ -42,6 +44,26 @@ The model currently includes the 10 Canadian provinces, with plans to add in the
 | Quebec       | QC           | Quebec |
 | Ontario      | OT           | Ontario |
 | Atlantic     | AT           | New Brunswick, Nova Scotia, PEI, Newfoundland Labrador |
+
+#U.S.
+
+|    Model Region   | Abbreviation | States Included                   | 
+|-------------------|--------------|-----------------------------------|
+| North West        | NW           | WA, OR                            |
+| California        | CA           | CA                                |
+| Mountain North    | MN	   | MT, ID, WY, NV, UT, CO            |
+| Southwest         | SW           | AZ, NM                            |
+| Central           | CE           | ND, SD, NE, KS, OK                |
+| Texas             | TX           | TX                                |
+| Midwest           | MW           | MN, WI, IA, IL, IN, MI, MO        | 
+| Arkansas-Louisiana| AL           |AR, LA                             |
+| Mid-Atlantic      | MA           | OH, PA, WV, KY, VA, NJ, DE, MD, DC|
+| Southeast         | SE           | TN, NC, SC, MS, AL, GA            |
+| Florida           | FL           | FL                                |
+| New York          | NY           | NY                                |
+| New England       | NE           | VT, NH, ME, MA, CT, RI            |
+*U.S. Abbreviation [Link](https://pe.usps.com/text/pub28/28apb.htm)
+
 
 ## Technologies
 ### Power Generators
