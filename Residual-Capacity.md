@@ -32,4 +32,7 @@ All biomass capacities and commissioning data currently comes from Wikipedia as 
 * Hydro stations are **not** decommissioned throughout our model run
 
 ## U.S.
-The U.S. residual capacity data is collected from the 3_1_GeneratorYyyyy.xlsx in [EIA-860 data set](https://www.eia.gov/electricity/data/eia860/). For example, the excel file we are processing in 2019 EIA-860 data is 3_1_GeneratorY2019.xlsx. 
+The U.S. residual capacity data is collected from the 3_1_GeneratorYyyyy.xlsx in [EIA-860 data set](https://www.eia.gov/electricity/data/eia860/). For example, the excel file we are processing in 2019 EIA-860 data is 3_1_GeneratorY2019.xlsx. Three tabs are included in this generator dataset and details are shown as follows.
+* Operable: includes those generators which are currently operating, out of service or on standby;
+* Proposed: includes those generators which are planned and not yet in operation; and
+* Retired: only includes those retired generators which were reported in the most current data cycle.
