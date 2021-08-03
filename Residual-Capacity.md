@@ -48,7 +48,7 @@ Residual capacity refers to the generation capacities that are already installed
 ### Capacity of Proposed Power Plants
 Since power plants shown in the "Proposed" tab are still in plan or not operable, we assume there is the half chance of operating in the future and half chance not, so only half of the original capacity will be considered before the retirement year.
 
-### Capacity of Retirement Power Plants
+### Capacity of Retired Power Plants
 We reduce the regional capacity by a retired power plant's initial capacity starting from its retirement year.
 
 Overall, the regional residual capacity for a type of technology T in the year Y is calculated by aggregating all power plants' capacity of technology T in the year Y in this region.
