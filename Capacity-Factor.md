@@ -1,3 +1,4 @@
+# Canada
 ## Wind and Solar
 ### Source
 [Renewables Ninja](https://www.renewables.ninja/)
@@ -52,3 +53,6 @@ The first table below shows how we filtered the `dataSources/NREL_Costs` datashe
 | Natural Gas CT      |  2020   | See Cost Section      | Market           | 20       | NaturalGas    | CTHighCF   | Moderate |
 | Nuclear             |  2020   | See Cost Section      | Market           | 20       | Nuclear       | na         | Moderate |
 | Biomass             |  2020   | See Cost Section      | Market           | 20       | Biopower      | Dedicated  | Moderate |
+
+# U.S.
+Most technologies' capacity factors can be located at [NREL ATB data](https://atb.nrel.gov/electricity/2021/data), however the wind and solar capacity factors are estimated using the NREL System Advisor Model (SAM) according to [Jayadev et al.](https://www.sciencedirect.com/science/article/abs/pii/S0306261919319543)
