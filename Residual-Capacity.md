@@ -36,3 +36,5 @@ The U.S. residual capacity data is collected from the 3_1_GeneratorYyyyy.xlsx in
 * Operable: includes those generators which are currently operating, out of service or on standby;
 * Proposed: includes those generators which are planned and not yet in operation; and
 * Retired: only includes those retired generators which were reported in the most current data cycle.
+
+Since only few power plants have the proposed retirement year listed in the data set, we estimate the retirement year of a power plant of a certain type of technology by operating year + technology lifetime. For example, a hydro electric power plant was operating since 1981
