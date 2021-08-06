@@ -23,9 +23,3 @@ Therefore, the heat rate for coal was taken from the [2014 Annual Energy Outlook
 
 ## Renewable Technologies
 Updated in the [2021 AEO Assumptions Table 8.1](https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf) was is the note for hydropower, wind, and solar, no heat rate is reported because the power is generated without fuel combustion and no set British thermal unit conversion factors exists. This also matches up with our assumption of the technologies operating at 100 percent efficiency (ie. one unit of water can be converted into one unit of electricity). We used the 2017 report numbers instead of the 2021 report values because it gave more aggregated general heat rates for technologies. For example, 2017 gave one category for conventional natural gas combined cycles, while 2021 broke it down into single shaft and multi shaft combined cycles. This provided numbers with greater detail then we required. 
-
-## Power to Gas Efficiency
-The P2G efficiency for 2019-2050 came from [Hydrogen production by PEM water electrolysis](https://www.sciencedirect.com/science/article/pii/S2589299119300035) published December 2019.
-
-## Fuel Cell Efficiency
-The Fuel Cell efficiency came from [U.S. Department of Energy - Fuel Cell Technologies Office](https://www.energy.gov/sites/prod/files/2015/11/f27/fcto_fuel_cells_fact_sheet.pdf) and [Power Technology - Realising the hydrogen economy](https://www.power-technology.com/comment/standing-at-the-precipice-of-the-hydrogen-economy/#:~:text=A%20fuel%20cell%2C%20by%20contrast,to%2060%20per%20cent%20efficiency.&text=per%20cent%20efficiency.-,A%20fuel%20cell%2C%20by%20contrast%2C%20can%20mix%20hydrogen%20with%20air,to%2060%20per%20cent%20efficiency.).
