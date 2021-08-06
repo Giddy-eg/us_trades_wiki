@@ -21,14 +21,17 @@ The table below shows how we filtered the NREL data to retrieve values for each 
 ## Non-Variable Renewable Generation Technologies 
 Non-variable renewable energy generation technologies are dispatched to produce the electricity needed to satisfy demand, rather than dictated by weather conditions. In this grouping we include dammed hydropower and biomass.
 
-Hydropower is given an availability factor value rather then a capacity factor value. The availability factor is the capacity limit of a technology over **a whole year** rather then over each time slice. Introducing an availability factor oppose to a capacity factor gives hydro flexible production functionality. **Canadian** hydropower availability factors are calculated using provincial hydro [residual capacity](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101) and [generation](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510001501&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2017&cubeTimeFrame.endMonth=12&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20171201) numbers. The availability factor was then calculated using the following formula: 
+Hydropower is given an availability factor value rather then a capacity factor value. The availability factor is the capacity limit of a technology over **a whole year** rather then over each time slice. Introducing an availability factor oppose to a capacity factor gives hydro flexible production functionality. 
+
+**Canadian** hydropower availability factors are calculated using provincial hydro [residual capacity](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510002201&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startYear=2017&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20170101) and [generation](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510001501&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2017&cubeTimeFrame.endMonth=12&cubeTimeFrame.endYear=2017&referencePeriods=20170101%2C20171201) numbers. The availability factor was then calculated using the following formula: 
 
 `Availability Factor = (Generation [Wh] * (1 year / 8760 hrs)) / Capacity [W]`
 
-Biomass capacity factor values are taken from the NREL [2020 Annual Technology Baseline](https://atb-archive.nrel.gov/electricity/2020/data.php). This is the same report that provided the thermal generation station capacity factor values. Moreover, the representative value (as previously discussed) was used to filter the data. 
+The NREL [2020 Annual Technology Baseline](https://atb-archive.nrel.gov/electricity/2020/data.php) provides the **United States** hydropower availability factor, and the biomass capacity factor values for both countries. This is the same report that provided the thermal generation station capacity factor values. Moreover, the representative value (as previously discussed) was used to filter the data. 
 
 | Model Technology    | atbyear | core_metric_parameter | core_metric_case | crpyears | technology    | techdetail  | scenario |
 |---------------------|---------|-----------------------|------------------|----------|---------------|-------------|----------|
+| Hydropower          |  2020   | CF                    | Market           | 20       | Hydropower    | NPD4        | Moderate |
 | Biomass             |  2020   | CF                    | Market           | 20       | Biopower      | Dedicated   | Moderate |
 
 **NOTE**: Canada used values reported from the 2020 report, while the United States used values reported from the 2017 report. 
