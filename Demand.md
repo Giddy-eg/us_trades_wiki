@@ -1,7 +1,7 @@
 # Definition
+We utilize two of OSeMOSYS' demand parameters: Specified Annual Demand and Specified Demand Profile. The annual demand determines a regions annual demand for each year over the model horizon. The demand profile then distributes the annual demand into time sliced demand. 
 
-
-# Total Annual Demand
+# Annual Demand
 **Canadian** Provincial Energy Demands for 2005 to 2050 are documented by the [Canadian Energy Regulator](https://apps.cer-rec.gc.ca/ftrppndc/dflt.aspx?GoCTemplateCulture=en-CA) in their Canadian Energy Future 2020: Energy Supply and Demand Projections Report. We retrieve data from the "End Use Demand" Appendix. Regional demands are found by summing provincial demands together
 
 **United States** annual demand is provided by the Unites States Energy Information Administration ([EIA](https://www.eia.gov/)). State specific annual demands for 2019 and 2020 are found from [this source](https://www.eia.gov/electricity/gridmonitor/dashboard/electric_overview/US48/US48). A standard reference case growth rate as described from [this source](https://www.eia.gov/outlooks/aeo/electricity/sub-topic-01.php) is applied to all states. 
