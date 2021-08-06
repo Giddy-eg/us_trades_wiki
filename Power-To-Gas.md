@@ -22,4 +22,8 @@ The PEM fixed costs are from the [Hydrogen Production Cost From PEM Electrolysis
 ### Power to Gas
 The variable cost for PEM was found in [Techno-economic Analysis of PEM Electrolysis for Hydrogen Production](https://www.energy.gov/sites/prod/files/2014/08/f18/fcto_2014_electrolytic_h2_wkshp_colella1.pdf) dated February 27, 2014. A conservative value was added to our model following this document and using the Total Electrical Usage ratio of 51.4 kWh/kg [Ref.](https://www.hydrogen.energy.gov/pdfs/19009_h2_production_cost_pem_electrolysis_2019.pdf) to attain the correct units ($/PJ).
 
+## Power to Gas Efficiency
+The P2G efficiency for 2019-2050 came from [Hydrogen production by PEM water electrolysis](https://www.sciencedirect.com/science/article/pii/S2589299119300035) published December 2019.
 
+## Fuel Cell Efficiency
+The Fuel Cell efficiency came from [U.S. Department of Energy - Fuel Cell Technologies Office](https://www.energy.gov/sites/prod/files/2015/11/f27/fcto_fuel_cells_fact_sheet.pdf) and [Power Technology - Realising the hydrogen economy](https://www.power-technology.com/comment/standing-at-the-precipice-of-the-hydrogen-economy/#:~:text=A%20fuel%20cell%2C%20by%20contrast,to%2060%20per%20cent%20efficiency.&text=per%20cent%20efficiency.-,A%20fuel%20cell%2C%20by%20contrast%2C%20can%20mix%20hydrogen%20with%20air,to%2060%20per%20cent%20efficiency.).
