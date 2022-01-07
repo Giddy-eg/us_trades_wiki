@@ -48,7 +48,7 @@ Our model investigates decarbonization pathways, therefore, we can expect increa
 
 ### Seasons
 
-The model is broken into four seasons, as summarized below. Each season starts/ends on the first/last day of the month (ie. They do not start/end mid-month like in reality) 
+The model is broken into four seasons, as summarized below, with each season starting/ending on the first/last day of the month. Each season represents a single 24 hour day in the model -- resulting in 96 equally sized time slices per year. Representing each season as a full 24 hour day allows us to capture parameters that are sensitive to time of the day, such as solar, wind, and energy loads.
 
 | Season | Abbreviation | Months Included | 
 |--------|--------------|--------------------|
@@ -56,10 +56,6 @@ The model is broken into four seasons, as summarized below. Each season starts/e
 | Spring | SP           | April, May, March|
 | Summer | S            | July, August, June|
 | Fall   | F            | October, November, September|
-
-### Seasonal Days
-
-Each season in the model is represented by a single 24 hour day. This results in 96 time slices for each year. Representing each season as a full 24 hour day allows us to capture parameters that are sensitive to time of the day, such as solar, wind, and energy loads. 
 
 ### Time Zones
 
