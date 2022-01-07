@@ -108,6 +108,10 @@ Below is a schematic showing the flow of energy for any arbitrary region in the 
 
 ![](https://i.ibb.co/hMnD5JN/res.png)
 
+## Naming Conventions
+
+See this page for an overview of the naming conventions 
+
 ## Units
 
 The table below summarizes the input unit values for each parameter 
